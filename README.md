@@ -1,10 +1,10 @@
 # website-check
 Dockerfile to create an image that checks if a website is up (returns 200) or not 
 
-###Build
+### Build
 `docker build -t website-check .`
 
-###Run
+### Run
 `docker run --rm website-check <URL>`
 
 *example: success*
